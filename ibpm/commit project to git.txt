@@ -1,0 +1,23 @@
+How to commit ,push,pull from eclipse to github
+
+
+
+
+
+
+
+1. create github account and signin
+
+2. start a project=create repository
+
+3. Start eclipse
+
+4. goto perspective> git repository and click on add git repo
+
+5. create project in eclipse
+
+6. do right click on project>team>share>add to git repo
+
+7. commit and push the project to the repo
+
+8. commit and push evry change to the repo
