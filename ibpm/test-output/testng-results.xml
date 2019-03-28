@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38170" started-at="2019-03-25T21:40:31Z" finished-at="2019-03-25T21:41:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38170" started-at="2019-03-25T21:40:31Z" finished-at="2019-03-25T21:41:09Z">
+      <class name="com.ibpm.testcases.Login">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ibpm.testcases.Login@61832929]" name="setUp" is-config="true" duration-ms="17084" started-at="2019-03-25T21:40:31Z" finished-at="2019-03-25T21:40:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateLoginPageTitle()[pri:1, instance:com.ibpm.testcases.Login@61832929]" name="validateLoginPageTitle" duration-ms="47" started-at="2019-03-25T21:40:48Z" finished-at="2019-03-25T21:40:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageTitle -->
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.ibpm.testcases.Login@61832929]" name="loginTest" duration-ms="19582" started-at="2019-03-25T21:40:48Z" finished-at="2019-03-25T21:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ibpm.testcases.Login@61832929]" name="tearDown" is-config="true" duration-ms="1399" started-at="2019-03-25T21:41:08Z" finished-at="2019-03-25T21:41:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ibpm.testcases.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
