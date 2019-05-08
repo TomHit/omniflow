@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="IBPM Suite" annotations="JDK" parallel="tests">
+         
+  <test name="Login">
+	 <classes>
+	   <class name="com.ibpm.testcases.Login"/>
+	 </classes>
+   </test>
+   
+  <test name="Search Cards TRN">
+     <classes>
+       <class name="com.ibpm.testcases.Search_cards_trn"/>
+     </classes>
+   </test>
+   
+   <test name="My Search Queue Cards">
+     <classes>
+       <class name="com.ibpm.testcases.My_Search_Queue_Cards"/>
+     </classes>
+   </test>
+</suite>
