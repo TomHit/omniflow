@@ -40,12 +40,12 @@ public class Basetest {
 		String browserName = prop.getProperty("browser");
 		
 		if(browserName.equals("chrome")){
-			System.setProperty("webdriver.chrome.driver", "/Users/tomarh/Downloads/chromedriver_win32/chromedriver.exe");	
- 
+			//System.setProperty("webdriver.chrome.driver", "/Users/tomarh/Downloads/chromedriver_win32/chromedriver.exe");	
+			System.setProperty("webdriver.chrome.driver", "/Users/tomarh/Downloads/se/chromedriver_win32/chromedriver.exe");
 			driver = new ChromeDriver(); 
 		}
 		else if(browserName.equals("FF")){
-			System.setProperty("webdriver.gecko.driver", "/Users/tomarh/Downloads/SeleniumServer/geckodriver");	
+			System.setProperty("webdriver.gecko.driver", "/Users/tomarh/Downloads/SeleniumServer/geckodriver.exe");	
 			driver = new FirefoxDriver(); 
 		}
 		
@@ -57,14 +57,6 @@ public class Basetest {
 		
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-
 }
 
 

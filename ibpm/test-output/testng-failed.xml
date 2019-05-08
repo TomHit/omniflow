@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [IBPM Suite]" parallel="tests">
+  <test thread-count="1" name="My Search Queue Cards(failed)" parallel="tests">
     <classes>
-      <class name="com.ibpm.testcases.Login">
+      <class name="com.ibpm.testcases.My_Search_Queue_Cards">
         <methods>
-          <include name="loginTest"/>
           <include name="tearDown"/>
-          <include name="validateLoginPageTitle"/>
           <include name="setUp"/>
+          <include name="My_search_Queue_Cards"/>
         </methods>
-      </class> <!-- com.ibpm.testcases.Login -->
+      </class> <!-- com.ibpm.testcases.My_Search_Queue_Cards -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- My Search Queue Cards(failed) -->
+</suite> <!-- Failed suite [IBPM Suite] -->

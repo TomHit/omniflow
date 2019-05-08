@@ -1,29 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38170" started-at="2019-03-25T21:40:31Z" finished-at="2019-03-25T21:41:09Z">
+  <suite name="IBPM Suite" duration-ms="232747" started-at="2019-05-07T21:38:45Z" finished-at="2019-05-07T21:42:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="38170" started-at="2019-03-25T21:40:31Z" finished-at="2019-03-25T21:41:09Z">
+    <test name="Login" duration-ms="13145" started-at="2019-05-07T21:38:45Z" finished-at="2019-05-07T21:38:58Z">
       <class name="com.ibpm.testcases.Login">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ibpm.testcases.Login@61832929]" name="setUp" is-config="true" duration-ms="17084" started-at="2019-03-25T21:40:31Z" finished-at="2019-03-25T21:40:48Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ibpm.testcases.Login@3bfdc050]" name="setUp" is-config="true" duration-ms="9486" started-at="2019-05-07T21:38:45Z" finished-at="2019-05-07T21:38:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateLoginPageTitle()[pri:1, instance:com.ibpm.testcases.Login@61832929]" name="validateLoginPageTitle" duration-ms="47" started-at="2019-03-25T21:40:48Z" finished-at="2019-03-25T21:40:48Z">
+        <test-method status="PASS" signature="validateLoginPageTitle()[pri:1, instance:com.ibpm.testcases.Login@3bfdc050]" name="validateLoginPageTitle" duration-ms="541" started-at="2019-05-07T21:38:55Z" finished-at="2019-05-07T21:38:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginPageTitle -->
-        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.ibpm.testcases.Login@61832929]" name="loginTest" duration-ms="19582" started-at="2019-03-25T21:40:48Z" finished-at="2019-03-25T21:41:08Z">
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.ibpm.testcases.Login@3bfdc050]" name="loginTest" duration-ms="804" started-at="2019-05-07T21:38:55Z" finished-at="2019-05-07T21:38:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ibpm.testcases.Login@61832929]" name="tearDown" is-config="true" duration-ms="1399" started-at="2019-03-25T21:41:08Z" finished-at="2019-03-25T21:41:09Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ibpm.testcases.Login@3bfdc050]" name="tearDown" is-config="true" duration-ms="2227" started-at="2019-05-07T21:38:56Z" finished-at="2019-05-07T21:38:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ibpm.testcases.Login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Login -->
+    <test name="Search Cards TRN" duration-ms="9498" started-at="2019-05-07T21:38:58Z" finished-at="2019-05-07T21:39:08Z">
+      <class name="com.ibpm.testcases.Search_cards_trn">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ibpm.testcases.Search_cards_trn@553f17c]" name="setUp" is-config="true" duration-ms="5735" started-at="2019-05-07T21:38:58Z" finished-at="2019-05-07T21:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Search_CARD_TRN()[pri:0, instance:com.ibpm.testcases.Search_cards_trn@553f17c]" name="Search_CARD_TRN" duration-ms="2475" started-at="2019-05-07T21:39:04Z" finished-at="2019-05-07T21:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_CARD_TRN -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ibpm.testcases.Search_cards_trn@553f17c]" name="tearDown" is-config="true" duration-ms="1286" started-at="2019-05-07T21:39:06Z" finished-at="2019-05-07T21:39:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ibpm.testcases.Search_cards_trn -->
+    </test> <!-- Search Cards TRN -->
+    <test name="My Search Queue Cards" duration-ms="210087" started-at="2019-05-07T21:39:08Z" finished-at="2019-05-07T21:42:38Z">
+      <class name="com.ibpm.testcases.My_Search_Queue_Cards">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ibpm.testcases.My_Search_Queue_Cards@4cf777e8]" name="setUp" is-config="true" duration-ms="5644" started-at="2019-05-07T21:39:08Z" finished-at="2019-05-07T21:39:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="My_search_Queue_Cards()[pri:0, instance:com.ibpm.testcases.My_Search_Queue_Cards@4cf777e8]" name="My_search_Queue_Cards" duration-ms="203077" started-at="2019-05-07T21:39:13Z" finished-at="2019-05-07T21:42:36Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate an element using xpath=//*[@id="myMenuID"]/table/tbody/tr/td[5]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'M3YSWVZ1', ip: '10.149.250.203', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//*[@id="myMenuID"]/table/tbody/tr/td[5]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'M3YSWVZ1', ip: '10.149.250.203', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at com.ibpm.testcases.My_Search_Queue_Cards.My_search_Queue_Cards(My_Search_Queue_Cards.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- My_search_Queue_Cards -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ibpm.testcases.My_Search_Queue_Cards@4cf777e8]" name="tearDown" is-config="true" duration-ms="1356" started-at="2019-05-07T21:42:36Z" finished-at="2019-05-07T21:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ibpm.testcases.My_Search_Queue_Cards -->
+    </test> <!-- My Search Queue Cards -->
+  </suite> <!-- IBPM Suite -->
 </testng-results>

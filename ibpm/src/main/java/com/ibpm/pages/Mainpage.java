@@ -26,5 +26,18 @@ public class Mainpage extends Basetest {
 		@FindBy(xpath="//*[@id=\"quickSrchMnu\"]")
 		public WebElement On;
 		
+		@FindBy(xpath="//*[@id=\"buttonGo\"]")
+		public WebElement go;
+		
+		@FindBy(xpath= "//*[@id=\"linkid0\"]")
+		public WebElement registration_no;
+		
+		@FindBy(xpath= "//*[@id=\"myMenuID\"]/table/tbody/tr/td[5]/a")
+		public WebElement close;
+		
+		
+	
+	
+		
 		
 }
